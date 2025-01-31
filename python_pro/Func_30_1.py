@@ -20,10 +20,14 @@ def isGreater(a,b):
     if(a>b):
         print("a is greater")
     else:
-        print("b is gerater")
+        print("b is greater")
 
 #calling function
 isGreater(5,61)
 
 #function arguments
 #default, keyword, variable length, required arguments
+
+#lambda function
+add = lambda x, y: x + y
+print(add(5, 3))
